@@ -6,6 +6,7 @@ This project is an implementation of a cloud-based IoT system that collects data
 
 - Python 3.x
 - Paho MQTT library (`pip install paho-mqtt`)
+- Thinkspeak
 
 ## Setup
 
