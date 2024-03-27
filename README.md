@@ -26,14 +26,12 @@ This project is an implementation of a cloud-based IoT system that collects data
 - `IoT Sesnsor.py`: Contains the main script that simulates the environmental stations and publishes data to ThingSpeak.
 - `README.md`: This file, containing instructions and information about the project.
 
-## Assignment Requirements
+## Latest Sensor Data Display
 
-This project fulfills the following requirements of the assignment:
+A MATLAB script (displayLatestData.m) has been developed to display the latest sensor data values from all sensors of a specified environmental station. This script connects to the ThingSpeak channel and fetches the most recent data entries for each sensor type. It provides real-time data visualization, showcasing the latest readings from temperature, humidity, and CO2 sensors.
 
-1. **Build a cloud-based IoT system that collects data from virtual sensors using the MQTT protocol**: The project simulates virtual environmental stations that generate random sensor data and publish it to a ThingSpeak channel using the MQTT protocol.
+## Last Five Hours Data Display
 
-2. **Display the latest sensor data values received from all sensors of a specified environmental station**: To display the latest sensor data values, you can monitor the console output, which prints the data for each environmental station as it is published.
-
-3. **Display the sensor data values received during the last five hours from all environmental stations for a specified sensor**: To display the sensor data values received during the last five hours, you can access the ThingSpeak channel data through the ThingSpeak API or by visualizing the data on the ThingSpeak platform.
+Another MATLAB script (displayHistoricalData.m) is included for visualizing sensor data received during the last five hours from all environmental stations for a specific sensor. This script retrieves historical data from the ThingSpeak channel, allowing for an analysis of trends and patterns over a five-hour period. The script can be customized to focus on a particular sensor type and provides a detailed view of the environmental changes monitored by the system.
 
 Note: The project assumes that you have a ThingSpeak account and a channel set up. If you want to use a different cloud-based IoT backend, you may need to modify the code accordingly.
