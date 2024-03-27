@@ -24,7 +24,10 @@ This project is an implementation of a cloud-based IoT system that collects data
 ## File Structure
 
 - `IoT Sesnsor.py`: Contains the main script that simulates the environmental stations and publishes data to ThingSpeak.
+- `displayLatestData.m`: A MATLAB script for displaying the latest sensor data values from all sensors of a specified environmental station. Connects to ThingSpeak to fetch the most recent data.
+- `displayHistoricalData.m`: Another MATLAB script designed to display sensor data from the last five hours from all environmental stations for a specific sensor, providing trend analysis and monitoring.
 - `README.md`: This file, containing instructions and information about the project.
+
 
 ## Latest Sensor Data Display
 
