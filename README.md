@@ -17,8 +17,8 @@ This project is an implementation of a cloud-based IoT system that collects data
   - `write_api_key`: Your ThingSpeak channel write API key
 `MQTT Credentials`:
   - `MQTT Client ID`
-  - 'Username`
-  - `Password'
+  - `Username`
+  - `Password`
 
 ## Usage
 
