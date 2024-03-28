@@ -11,10 +11,14 @@ This project is an implementation of a cloud-based IoT system that collects data
 ## Setup
 
 1. Clone the repository or download the source code.
-2. Obtain your ThingSpeak channel ID and write API key. You can create a new channel on the ThingSpeak platform if you don't have one already.
+2. Obtain your ThingSpeak channel ID and write API key. You can create a new channel on the ThingSpeak platform if you don't have one already. Also create the MQTT device setup
 3. Update the following variables in the code with your ThingSpeak credentials:
   - `channel_id`: Your ThingSpeak channel ID
   - `write_api_key`: Your ThingSpeak channel write API key
+`MQTT Credentials`:
+  - `MQTT Client ID`
+  - 'Username`
+  - `Password'
 
 ## Usage
 
